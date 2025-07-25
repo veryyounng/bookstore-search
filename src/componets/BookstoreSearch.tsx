@@ -73,7 +73,9 @@ const BookstoreSearch = () => {
 
   return (
     <div className="p-6 text-center">
-      <h1 className="text-3xl font-bold mb-6">📚 지역별 인증 서점 찾기</h1>
+      <h1 className="text-3xl font-bold mb-6">
+        📚 천권으로 독서포인트 사용 가능 서점
+      </h1>
 
       {isLoading ? (
         <p className="text-gray-500">데이터 불러오는 중...</p>
